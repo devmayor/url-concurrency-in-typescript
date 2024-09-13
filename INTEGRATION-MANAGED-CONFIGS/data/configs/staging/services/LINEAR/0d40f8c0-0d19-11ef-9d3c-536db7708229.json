@@ -1,0 +1,104 @@
+
+{
+  "connectionGuid": "0d40f8c0-0d19-11ef-9d3c-536db7708229", 
+  "configuration": {
+    "urlTemplate": "https://app.testlio.net/tmt/project/alekseis-project#", 
+    "syncSeverity": true,
+    "label": {
+      "localSearchFor": "Testlio", 
+      "searchFor": "Testlio", 
+      "createWith": ["Testlio-label-final"]
+    },
+    "assigneeId": "ASSIGNEE_ID_PLACEHOLDER", 
+    "enableBacksync": true, 
+    "projectId": "TEAM12345", 
+    "severities": [
+      {
+        "remote": "SEVERITY_1_REMOTE_PLACEHOLDER",
+        "local": "high"
+      },
+      {
+        "remote": "SEVERITY_2_REMOTE_PLACEHOLDER",
+        "local": "high"
+      },
+      {
+        "remote": "SEVERITY_3_REMOTE_PLACEHOLDER",
+        "local": "medium"
+      },
+      {
+        "remote": "SEVERITY_4_REMOTE_PLACEHOLDER",
+        "local": "low"
+      },
+      {
+        "remote": "SEVERITY_5_REMOTE_PLACEHOLDER",
+        "local": "low"
+      }
+    ],
+    "states": [
+      {
+        "remoteState": "DONE",
+        "localState": "open"
+      },
+      {
+        "remoteState": "NOTDONE",
+        "localState": "open"
+      },
+      {
+        "remoteState": "STARTED",
+        "localState": "verification"
+      },
+      {
+        "remoteState": "REMOTE_STATE_4_PLACEHOLDER",
+        "localState": "fixed"
+      },
+      {
+        "remoteState": "REMOTE_STATE_5_PLACEHOLDER",
+        "localState": "closed"
+      },
+      {
+        "remoteState": "REMOTE_STATE_6_PLACEHOLDER",
+        "localState": "closed"
+      }
+    ],
+    "additionalWorkflows": [
+      {
+        "projectId": "ADDITIONAL_PROJECT_ID_PLACEHOLDER", 
+        "states": [
+          {
+            "remoteState": "ADDITIONAL_REMOTE_STATE_1_PLACEHOLDER", 
+            "localState": "open"
+          },
+          {
+            "remoteState": "ADDITIONAL_REMOTE_STATE_2_PLACEHOLDER", 
+            "localState": "open"
+          },
+          {
+            "remoteState": "ADDITIONAL_REMOTE_STATE_3_PLACEHOLDER", 
+            "localState": "verification"
+          },
+          {
+            "remoteState": "ADDITIONAL_REMOTE_STATE_4_PLACEHOLDER", 
+            "localState": "fixed"
+          },
+          {
+            "remoteState": "ADDITIONAL_REMOTE_STATE_5_PLACEHOLDER", 
+            "localState": "closed"
+          }
+        ]
+      }
+    ],
+    "syncLabels": true
+  },
+  "createdAt": "2024-09-13T03:08:07.663450", 
+  "updatedByHref": "https://app.testlio.net/tmt/project/alekseis-project#", 
+  "isDeleted": false, 
+  "createdByHref": "https://app.testlio.net/tmt/project/alekseis-project#", 
+  "urlCode": "URL_CODE_PLACEHOLDER", 
+  "service": "LINEAR", 
+  "integrationName": "Linear Integration", 
+  "startSyncFrom": "2024-09-13T03:08:07.663450", 
+  "collectionHref": "https://app.testlio.net/tmt/project/alekseis-project#", 
+  "integrationGuid": "0d40f8c0-0d19-11ef-9d3c-536db7708229", 
+  "updatedAt": "2024-09-13T03:08:07.663450", 
+  "isEnabled": false
+}
